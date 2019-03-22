@@ -1,0 +1,22 @@
+{
+    "name": "keven/climate-live-table",
+    "description": "Live table extension for league/climate",
+    "license": "mit",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Keven Godet",
+            "email": "hello@keven.fr",
+            "homepage": "http://keven.fr",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Keven\\CLImate\\": "src"
+        }
+    },
+    "require": {
+        "league/climate": "^3.2"
+    }
+}
